@@ -11950,4 +11950,9 @@ fieldset:disabled .btn {
     display: none !important;
   }
 }
+
+.img-fit {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
 /*# sourceMappingURL=all.css.map */
