@@ -11954,5 +11954,21 @@ fieldset:disabled .btn {
 .img-fit {
   -o-object-fit: cover;
      object-fit: cover;
+  -o-object-position: center 70%;
+     object-position: center 70%;
+}
+
+.carousel-item img {
+  height: calc(100vh - 56px);
+}
+
+.nav-link {
+  -webkit-transition: .25s;
+  transition: .25s;
+}
+
+.nav-link:hover {
+  background: #1c9a91;
+  color: white !important;
 }
 /*# sourceMappingURL=all.css.map */

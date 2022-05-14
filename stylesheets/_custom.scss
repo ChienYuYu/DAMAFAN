@@ -1,3 +1,17 @@
 .img-fit{
   object-fit: cover;
+  object-position: center 70%;
+}
+
+.carousel-item img{
+  height: calc(100vh - 56px);
+}
+
+
+.nav-link{
+  transition: .25s;
+  &:hover{
+    background: rgb(28, 154, 145);
+    color: white !important;
+  }
 }
