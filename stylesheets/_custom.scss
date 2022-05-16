@@ -7,6 +7,17 @@
   height: calc(100vh - 56px);
 }
 
+.bg-dark-gradient {
+  background-image: linear-gradient(180deg,rgba(0, 0, 0, 0),rgba(20, 20, 20, .5),rgba(5, 5, 5, .9));
+}
+.carousel-caption{
+  // width: 100% !important;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+}
 
 .nav-link{
   transition: .25s;
