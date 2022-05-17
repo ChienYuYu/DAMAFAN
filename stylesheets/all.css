@@ -11951,20 +11951,34 @@ fieldset:disabled .btn {
   }
 }
 
+header {
+  position: relative;
+}
+
+header .navbar {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 10;
+  background-color: rgba(250, 250, 250, 0.85);
+}
+
+header .nav-link {
+  -webkit-transition: .25s;
+  transition: .25s;
+}
+
+header .nav-link:hover {
+  background: #1c9a91;
+  color: white !important;
+}
+
 .img-fit {
   -o-object-fit: cover;
      object-fit: cover;
   -o-object-position: center 70%;
      object-position: center 70%;
-}
-
-.carousel-item img {
-  height: calc(100vh - 56px);
-}
-
-.bg-dark-gradient {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), color-stop(rgba(20, 20, 20, 0.5)), to(rgba(5, 5, 5, 0.9)));
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(20, 20, 20, 0.5), rgba(5, 5, 5, 0.9));
 }
 
 .carousel-caption {
@@ -11975,14 +11989,20 @@ fieldset:disabled .btn {
   padding-top: 2rem;
 }
 
-.nav-link {
-  -webkit-transition: .25s;
-  transition: .25s;
+.bg-dark-gradient {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), color-stop(rgba(20, 20, 20, 0.5)), to(rgba(5, 5, 5, 0.9)));
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(20, 20, 20, 0.5), rgba(5, 5, 5, 0.9));
 }
 
-.nav-link:hover {
-  background: #1c9a91;
-  color: white !important;
+.mask {
+  background-color: rgba(0, 0, 0, 0.3);
+  opacity: 0;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.mask:hover {
+  opacity: 1;
 }
 
 .footer-bg {
