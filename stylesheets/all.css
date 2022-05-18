@@ -12025,6 +12025,20 @@ header .nav-link:hover {
   border: 4px solid #198754;
 }
 
+.reveal {
+  opacity: 0;
+  -webkit-transform: translateY(150px);
+          transform: translateY(150px);
+  -webkit-transition: 1.5s ease;
+  transition: 1.5s ease;
+}
+
+.show-section {
+  opacity: 1;
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+}
+
 .footer-bg {
   background: #394a42;
 }
