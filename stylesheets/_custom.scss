@@ -42,9 +42,21 @@ header{
     opacity: 1;
   }
 }
-
+.bg-green-opacity {
+  background-color: rgba(6, 128, 83, 0.7);
+}
+.service-card{
+  border-radius: 5%;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, .1) ;
+  border: 4px solid transparent;
+  transition: .5s;
+  &:hover{
+    box-shadow: 0 0 10px rgba(125, 214, 166, 0.5) ;
+    border: 4px solid $success;
+  }
+}
 
 .footer-bg{
-  // background: rgb(77, 126, 103);
   background: rgb(57, 74, 66);
 }
