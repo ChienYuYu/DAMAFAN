@@ -11996,13 +11996,17 @@ header .nav-link:hover {
 
 .mask {
   background-color: rgba(0, 0, 0, 0.3);
-  opacity: 0;
-  -webkit-transition: .4s;
-  transition: .4s;
 }
 
-.mask:hover {
-  opacity: 1;
+@media (min-width: 992px) {
+  .mask {
+    opacity: 0;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  .mask:hover {
+    opacity: 1;
+  }
 }
 
 .bg-green-opacity {
@@ -12012,17 +12016,18 @@ header .nav-link:hover {
 .service-card {
   border-radius: 5%;
   overflow: hidden;
-  -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-          box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-  border: 4px solid transparent;
+  -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.12);
+          box-shadow: 0 0 20px rgba(0, 0, 0, 0.12);
+  border: 5px solid transparent;
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
   -webkit-transition: .5s;
   transition: .5s;
 }
 
 .service-card:hover {
-  -webkit-box-shadow: 0 0 10px rgba(125, 214, 166, 0.5);
-          box-shadow: 0 0 10px rgba(125, 214, 166, 0.5);
-  border: 4px solid #198754;
+  -webkit-transform: translateY(-20px);
+          transform: translateY(-20px);
 }
 
 .reveal {
