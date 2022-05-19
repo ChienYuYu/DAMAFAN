@@ -21,6 +21,5 @@ function reveal(){
     gotopBtn.style.opacity = 1;
   }else{
     gotopBtn.style.opacity = 0;
-    gotopBtn.style.transform=`translateY(0)`;
   }
 }
