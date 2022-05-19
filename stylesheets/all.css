@@ -11956,11 +11956,6 @@ header {
 }
 
 header .navbar {
-  position: fixed;
-  left: 0;
-  right: 0;
-  top: 0;
-  z-index: 10;
   background-color: rgba(250, 250, 250, 0.85);
   -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
           box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -11987,7 +11982,7 @@ header .nav-link:hover {
   left: 0;
   right: 0;
   bottom: 0;
-  padding-bottom: 4rem;
+  padding-bottom: 6rem;
   padding-top: 2rem;
 }
 
@@ -12048,5 +12043,18 @@ header .nav-link:hover {
 
 .footer-bg {
   background: #394a42;
+}
+
+.gotop-btn {
+  opacity: 0;
+  -webkit-transition: .5s;
+  transition: .5s;
+  color: #ffc107;
+}
+
+.gotop-btn:hover {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+  color: #0dcaf0;
 }
 /*# sourceMappingURL=all.css.map */

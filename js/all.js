@@ -1,6 +1,8 @@
-//滾動到指定位置顯示元素------------------------------
+
+//scroll事件------------------------------
 window.addEventListener('scroll',reveal);
 function reveal(){
+  //滾動到指定位置顯示元素----------------
   const reveals = document.querySelectorAll('.reveal');
   reveals.forEach((item,index)=>{
     let windowHeight = window.innerHeight;//視窗高度
@@ -11,6 +13,14 @@ function reveal(){
     }else{
       return
     }
-    // console.log(windowHeight,`/ 距離頂部:${itemHeight}`)
   })
+
+  //至頂按鈕顯示-------------------------------------
+  const gotopBtn = document.querySelector('.gotop-btn');
+  if(window.scrollY >800){
+    gotopBtn.style.opacity = 1;
+  }else{
+    gotopBtn.style.opacity = 0;
+    gotopBtn.style.transform=`translateY(0)`;
+  }
 }

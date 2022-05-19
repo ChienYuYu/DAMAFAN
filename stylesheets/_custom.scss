@@ -1,11 +1,6 @@
 header{
   position: relative;
   .navbar{
-    position: fixed;
-    left: 0;
-    right: 0;
-    top: 0;
-    z-index: 10;
     background-color:rgba(250, 250, 250, 0.85);
     box-shadow: 0 2px 5px rgba(0,0,0,.1);
   }
@@ -27,7 +22,7 @@ header{
   left: 0;
   right: 0;
   bottom: 0;
-  padding-bottom: 4rem;
+  padding-bottom: 6rem;
   padding-top: 2rem;
 }
 
@@ -56,10 +51,6 @@ header{
   transform: translateY(0);
   transition: .5s;
   &:hover{
-    // box-shadow: 0 0 10px rgba(125, 214, 166, 0.5) ;
-    // border: 4px solid $success;
-    // box-shadow: 0 0 10px rgba(255, 240, 23, 0.9) ;
-    // border: 4px solid $warning;
     transform: translateY(-20px);
   }
 }
@@ -74,4 +65,14 @@ header{
 }
 .footer-bg{
   background: rgb(57, 74, 66);
+}
+
+.gotop-btn{
+  opacity: 0;
+  transition: .5s;
+  color: $warning;
+  &:hover{
+    transform: rotate(360deg);
+    color: $info;
+  }
 }
