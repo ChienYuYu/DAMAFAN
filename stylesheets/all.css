@@ -12027,6 +12027,10 @@ header .nav-link:hover {
           transform: translateY(-20px);
 }
 
+.banner {
+  margin-top: 56px;
+}
+
 .reveal {
   opacity: 0;
   -webkit-transform: translateY(150px);
