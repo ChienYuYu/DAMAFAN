@@ -57,116 +57,65 @@
     </nav>
 
     <div class="banner">
-      <img src="img/call-center-3614379_1920.jpg" alt="call-center"  height="250" class="w-100 img-fit shadow-sm">
+      <img src="img/drugs-4938120_1920.jpg" alt="call-center"  height="250" class="w-100 img-fit shadow-sm">
     </div>
     
   </header>
   <!-- ------------------------------ -->
-  <section class="container">
-    <div class="row justify-content-center p-md-5" style="top:60px ;">
-      <div class="col-md-8">
-        <form class="row g-3 shadow mx-1 my-5 p-2 p-md-4  border-top border-warning border-5 rounded">
-          <h3 class="text-center mb-3">聯絡我們
-          </h3>
-          <div class="col-md-6">
-            <label for="first-name" class="form-label">名字</label>
-            <input type="text" class="form-control" id="first-name">
-          </div>
-          <div class="col-md-6">
-            <label for="last-name" class="form-label">姓氏</label>
-            <input type="text" class="form-control" id="last-name">
-          </div>
-          <div class="col-12">
-            <label for="phone-number" class="form-label">手機號碼</label>
-            <input type="tel" class="form-control" id="phone-number">
-          </div>
-          <div class="col-12">
-            <label for="email" class="form-label">電子郵件</label>
-            <input type="email" class="form-control" id="email">
-          </div>
-          
-          <div class="col-md-6">
-            <label for="City" class="form-label">收件地址</label>
-            <select id="City" class="form-select">
-              <option selected>請選擇城市</option>
-              <option>基隆市</option>
-              <option>新北市</option>
-              <option>台北市</option>
-              <option>桃園市</option>
-              <option>新竹縣</option>
-              <option>新竹市</option>
-              <option>苗栗縣</option>
-              <option>台中市</option>
-              <option>南投縣</option>
-              <option>彰化縣</option>
-              <option>雲林縣</option>
-              <option>嘉義縣</option>
-              <option>嘉義市</option>
-              <option>台南市</option>
-              <option>高雄市</option>
-              <option>屏東縣</option>
-              <option>台東縣</option>
-              <option>宜蘭縣</option>
-              <option>花蓮縣</option>
-              <option>金門縣</option>
-              <option>澎湖縣</option>
-            </select>
-          </div>
+  <!-- 01. 了解客戶需求
+  02. 樣品試製、配方調整、包裝設計
+  03. 進行產品生產
+  04. 品質管理、數量統計
+  05. 外銷協助、裝箱出貨
+  06. 售後服務
 
-          <div class="col-md-6">
-            <label for="" class="form-label"></label>
-            <select id="" class="form-select mt-md-2">
-              <option selected>請選擇區域</option>
-            </select>
+  11 了解需求
+  22 製作樣品 配方調整 包裝設計
+  33 數量確認 產品生產
+  44 裝箱出貨 -->
+  <!-- ------------------------------ -->
+  <section>
+    <div class="container py-5">
+      <div class="row row-cols-1 row-cols-md-4 border-bottom border-4 border-warning">
+        <div class="col d-flex flex-column align-items-center mb-5">
+          <img src="img/step-1.jpg" alt="" class="service-pic rounded-circle">
+          <div class="step text-center">
+            <p class="text-warning my-2">STEP1</p>
+          <h4 class="h5 my-1">了解客戶需求</h4>
+          <p class="text-secondary">客戶接洽、討論</p>
           </div>
-
-          <div class="col-12">
-            <input type="text" class="form-control"placeholder="請輸入詳細地址">
+        </div>
+        <div class="col d-flex flex-column align-items-center mb-5">
+          <img src="img/step-2.jpg" alt="" class="service-pic rounded-circle">
+          <div class="step text-center">
+            <p class="text-warning my-2">STEP2</p>
+          <h4 class="h5 my-1">製作樣品</h4>
+          <p class="text-secondary">配方調整 包裝設計</p>
           </div>
-
-          <div class="col-md-12">
-            <label for="ask" class="form-label">詢問品項</label>
-            <select id="ask" class="form-select mt-md-2">
-              <option selected>請選擇項目</option>
-              <option>原料</option>
-              <option>配方</option>
-              <option>代工</option>
-              <option>精油</option>
-              <option>保健食品</option>
-              <option>茶飲類</option>
-              <option>清潔衛浴類</option>
-            </select>
+        </div>
+        <div class="col d-flex flex-column align-items-center mb-5">
+          <img src="img/step-3.jpg" alt="" class="service-pic rounded-circle">
+          <div class="step text-center">
+            <p class="text-warning my-2">STEP3</p>
+          <h4 class="h5 my-1">工廠生產</h4>
+          <p class="text-secondary">數量確認 開始量產</p>
           </div>
-          
-          <div class="col-12 d-flex">
-            <div class="form-check me-3">
-              <input class="form-check-input" type="checkbox" id="tel-reply">
-              <label class="form-check-label" for="tel-reply">
-                電話回覆
-              </label>
-            </div>
-            <div class="form-check">
-              <input class="form-check-input" type="checkbox" id="email-reply">
-              <label class="form-check-label" for="email-reply">
-                email回覆
-              </label>
-            </div>
-          </div>
-
-          <div class="col-12">
-            <label for="message" class="form-label text-dark">詳細說明</label>
-            <textarea name="" id="message" rows="3" class="form-control"></textarea>
-          </div>
-
-          <div class="col-12 d-flex">
-            <button type="submit" class="btn btn-warning rounded-pill px-5 m-2 mx-auto">送出</button>
-          </div>
-        </form>
+        </div>
+        <div class="col d-flex flex-column align-items-center mb-3">
+          <img src="img/step-4.jpg" alt="" class="service-pic rounded-circle">
+         <div class="step text-center">
+          <p class="text-warning my-2">STEP4</p>
+          <h4 class="h5 my-1">裝箱出貨</h4>
+          <p class="text-secondary">品保放行 成品出貨</p>
+         </div>
+        </div>
+        
+      </div>
+      <div class="d-flex">
+        <a href="contact.html" class="btn btn-warning btn-lg mx-auto mt-5">聯絡我們</a>
       </div>
     </div>
   </section>
- 
-  <!-- ------------------------------ -->
 
   <!-- ------------------------------ -->
 

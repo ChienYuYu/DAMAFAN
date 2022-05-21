@@ -12031,6 +12031,17 @@ header .nav-link:hover {
   margin-top: 56px;
 }
 
+.service-pic {
+  height: 200px;
+}
+
+@media (max-width: 991.98px) {
+  .service-pic {
+    height: 150px;
+    width: 150px;
+  }
+}
+
 .reveal {
   opacity: 0;
   -webkit-transform: translateY(150px);

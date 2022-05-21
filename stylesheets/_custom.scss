@@ -63,7 +63,15 @@ header{
 .banner{
   margin-top: 56px;
 }
-// --------------------
+// service.html-------------
+.service-pic{
+  height: 200px;
+  @include media-breakpoint-down(lg){
+    height: 150px;
+    width: 150px;
+  }
+}
+// --------------------------
 .reveal{
   opacity:0;
   transform:translateY(150px);
