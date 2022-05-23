@@ -12027,6 +12027,18 @@ header .nav-link:hover {
           transform: translateY(-20px);
 }
 
+.pic-hover-transform {
+  -webkit-transform: scale(100%);
+          transform: scale(100%);
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.pic-hover-transform:hover {
+  -webkit-transform: scale(105%);
+          transform: scale(105%);
+}
+
 .banner {
   margin-top: 56px;
 }
