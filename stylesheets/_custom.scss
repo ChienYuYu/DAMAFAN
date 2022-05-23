@@ -7,7 +7,8 @@ header{
   .nav-link{
     transition: .25s;
     &:hover{
-      background: rgb(28, 154, 145);
+      // background: rgb(28, 154, 145);
+      background: $success;
       color: white !important;
     }
   }
