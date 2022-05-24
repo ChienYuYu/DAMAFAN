@@ -1,0 +1,7 @@
+.pic-hover-transform{
+  transform: scale(100%);
+  transition:.5s;
+  &:hover{
+    transform: scale(105%);
+  }
+}

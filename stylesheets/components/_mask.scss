@@ -1,0 +1,10 @@
+.mask{
+  background-color: rgba(0,0,0,.3);
+  @include media-breakpoint-up(lg) {
+    opacity: 0;
+    transition: .4s;
+    &:hover{
+      opacity: 1;
+    }
+  }
+}

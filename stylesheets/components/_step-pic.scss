@@ -1,0 +1,7 @@
+.step-pic{
+  height: 200px;
+  @include media-breakpoint-down(lg){
+    height: 150px;
+    width: 150px;
+  }
+}

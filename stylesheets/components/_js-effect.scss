@@ -1,0 +1,18 @@
+.reveal{
+  opacity:0;
+  transform:translateY(100px);
+  transition: 1.5s ease;
+}
+.show-section{
+  opacity:1;
+  transform:translateY(0);
+}
+
+.gotop-btn{
+  opacity: 0;
+  transition: .5s;
+  color: $warning;
+  &:hover{
+    color: $info;
+  }
+}
