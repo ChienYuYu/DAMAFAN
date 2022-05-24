@@ -1,3 +1,6 @@
+html{
+  scroll-behavior: smooth;
+}
 header{
   .navbar{
     background-color:rgba(250, 250, 250, 0.85);
@@ -29,9 +32,6 @@ header{
 .bg-dark-gradient {
   background-image: linear-gradient(180deg,rgba(0, 0, 0, 0),rgba(20, 20, 20, .5),rgba(5, 5, 5, .9));
 }
-.bg-red-opacity{
-  background: #ad0d05c5;
-}
 
 .mask{
   background-color: rgba(0,0,0,.3);
@@ -43,9 +43,7 @@ header{
     }
   }
 }
-.bg-green-opacity {
-  background-color: rgba(6, 128, 83, 0.7);
-}
+
 .service-card{
   border-radius: 5%;
   overflow: hidden;
@@ -57,6 +55,16 @@ header{
     transform: translateY(-20px);
   }
 }
+// --------------------------
+.banner{
+  margin-top: 56px;
+}
+.footer-bg{
+  background: rgb(57, 74, 66);
+}
+footer a:hover{
+  color: $warning !important;
+}
 // product.html---------------
 .pic-hover-transform{
   transform: scale(100%);
@@ -64,12 +72,6 @@ header{
   &:hover{
     transform: scale(105%);
   }
-}
-
-
-// --------------------
-.banner{
-  margin-top: 56px;
 }
 // service.html-------------
 .service-pic{
@@ -79,7 +81,7 @@ header{
     width: 150px;
   }
 }
-// --------------------------
+// js--------------------------
 .reveal{
   opacity:0;
   transform:translateY(100px);
@@ -88,9 +90,6 @@ header{
 .show-section{
   opacity:1;
   transform:translateY(0);
-}
-.footer-bg{
-  background: rgb(57, 74, 66);
 }
 
 .gotop-btn{
