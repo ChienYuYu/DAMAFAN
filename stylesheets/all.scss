@@ -43,4 +43,12 @@
 // Utilities
 @import "../node_modules/bootstrap/scss/utilities/api";
 
+//custom------------
 @import"custom";
+@import"./components/mask";
+
+@import"./components/service-card";
+@import"./components/step-pic";
+@import"./components/pic-hover-transform";
+@import"./components/footer";
+@import"./components/js-effect";

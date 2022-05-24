@@ -14,28 +14,28 @@ html{
   background-image: linear-gradient(180deg,rgba(0, 0, 0, 0),rgba(20, 20, 20, .5),rgba(5, 5, 5, .9));
 }
 
-.mask{
-  background-color: rgba(0,0,0,.3);
-  @include media-breakpoint-up(lg) {
-    opacity: 0;
-    transition: .4s;
-    &:hover{
-      opacity: 1;
-    }
-  }
-}
+// .mask{
+//   background-color: rgba(0,0,0,.3);
+//   @include media-breakpoint-up(lg) {
+//     opacity: 0;
+//     transition: .4s;
+//     &:hover{
+//       opacity: 1;
+//     }
+//   }
+// }
 
-.service-card{
-  border-radius: 5%;
-  overflow: hidden;
-  box-shadow: 0 0 20px rgba(0, 0, 0, .12) ;
-  border: 5px solid transparent;
-  transform: translateY(0);
-  transition: .5s;
-  &:hover{
-    transform: translateY(-20px);
-  }
-}
+// .service-card{
+//   border-radius: 5%;
+//   overflow: hidden;
+//   box-shadow: 0 0 20px rgba(0, 0, 0, .12) ;
+//   border: 5px solid transparent;
+//   transform: translateY(0);
+//   transition: .5s;
+//   &:hover{
+//     transform: translateY(-20px);
+//   }
+// }
 // 共用--------------------------
 header{
   .navbar{
@@ -59,43 +59,43 @@ header{
   object-fit: cover;
   object-position: center 70%;
 }
-.footer-bg{
-  background: rgb(57, 74, 66);
-}
-footer a:hover{
-  color: $warning !important;
-}
-.pic-hover-transform{
-  transform: scale(100%);
-  transition:.5s;
-  &:hover{
-    transform: scale(105%);
-  }
-}
+// .footer-bg{
+//   background: rgb(57, 74, 66);
+// }
+// footer a:hover{
+//   color: $warning !important;
+// }
+// .pic-hover-transform{
+//   transform: scale(100%);
+//   transition:.5s;
+//   &:hover{
+//     transform: scale(105%);
+//   }
+// }
 // service.html-------------
-.service-pic{
-  height: 200px;
-  @include media-breakpoint-down(lg){
-    height: 150px;
-    width: 150px;
-  }
-}
+// .step-pic{
+//   height: 200px;
+//   @include media-breakpoint-down(lg){
+//     height: 150px;
+//     width: 150px;
+//   }
+// }
 // js--------------------------
-.reveal{
-  opacity:0;
-  transform:translateY(100px);
-  transition: 1.5s ease;
-}
-.show-section{
-  opacity:1;
-  transform:translateY(0);
-}
+// .reveal{
+//   opacity:0;
+//   transform:translateY(100px);
+//   transition: 1.5s ease;
+// }
+// .show-section{
+//   opacity:1;
+//   transform:translateY(0);
+// }
 
-.gotop-btn{
-  opacity: 0;
-  transition: .5s;
-  color: $warning;
-  &:hover{
-    color: $info;
-  }
-}
+// .gotop-btn{
+//   opacity: 0;
+//   transition: .5s;
+//   color: $warning;
+//   &:hover{
+//     color: $info;
+//   }
+// }

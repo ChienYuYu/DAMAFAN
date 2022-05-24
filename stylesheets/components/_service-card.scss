@@ -1,0 +1,11 @@
+.service-card{
+  border-radius: 5%;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, .12) ;
+  border: 5px solid transparent;
+  transform: translateY(0);
+  transition: .5s;
+  &:hover{
+    transform: translateY(-20px);
+  }
+}
