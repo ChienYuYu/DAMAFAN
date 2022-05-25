@@ -10535,6 +10535,10 @@ footer a:hover {
   color: #ffc107 !important;
 }
 
+.footer-end .declaration {
+  font-size: 14px;
+}
+
 .reveal {
   opacity: 0;
   -webkit-transform: translateY(100px);
