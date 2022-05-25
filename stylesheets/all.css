@@ -10424,6 +10424,10 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  font-family: 'Noto Sans TC', sans-serif;
+}
+
 .carousel-caption {
   left: 0;
   right: 0;
@@ -10439,13 +10443,6 @@ html {
 
 .banner {
   margin-top: 56px;
-}
-
-.img-fit {
-  -o-object-fit: cover;
-     object-fit: cover;
-  -o-object-position: center 70%;
-     object-position: center 70%;
 }
 
 .title-position {
@@ -10481,6 +10478,13 @@ header .nav-link:hover {
   .mask:hover {
     opacity: 1;
   }
+}
+
+.img-fit {
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center 70%;
+     object-position: center 70%;
 }
 
 .service-card {

@@ -1,6 +1,9 @@
 html{
   scroll-behavior: smooth;
 }
+body {
+  font-family: 'Noto Sans TC', sans-serif;
+}
 .carousel-caption{
   left: 0;
   right: 0;
@@ -8,19 +11,12 @@ html{
   padding-bottom: 6rem;
   padding-top: 2rem;
 }
-
 .bg-dark-gradient {
   background-image: linear-gradient(180deg,rgba(0, 0, 0, 0),rgba(20, 20, 20, .5),rgba(5, 5, 5, .9));
 }
-
 .banner{
   margin-top: 56px;
 }
-.img-fit{
-  object-fit: cover;
-  object-position: center 70%;
-}
-
 .title-position{
   top:auto
 }
