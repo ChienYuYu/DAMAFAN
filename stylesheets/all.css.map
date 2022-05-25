@@ -4,7 +4,7 @@
     "sources": [
         "all.scss",
         "../node_modules/bootstrap/scss/_functions.scss",
-        "../node_modules/bootstrap/scss/_variables.scss",
+        "helpers/_variables.scss",
         "../node_modules/bootstrap/scss/_mixins.scss",
         "../node_modules/bootstrap/scss/vendor/_rfs.scss",
         "../node_modules/bootstrap/scss/mixins/_deprecate.scss",
@@ -32,7 +32,7 @@
         "../node_modules/bootstrap/scss/mixins/_clearfix.scss",
         "../node_modules/bootstrap/scss/mixins/_container.scss",
         "../node_modules/bootstrap/scss/mixins/_grid.scss",
-        "../node_modules/bootstrap/scss/_utilities.scss",
+        "helpers/_utilities.scss",
         "../node_modules/bootstrap/scss/_root.scss",
         "../node_modules/bootstrap/scss/_reboot.scss",
         "../node_modules/bootstrap/scss/_type.scss",
