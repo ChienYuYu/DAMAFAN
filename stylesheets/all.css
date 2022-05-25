@@ -10448,6 +10448,10 @@ html {
      object-position: center 70%;
 }
 
+.title-position {
+  top: auto;
+}
+
 header .navbar {
   background-color: rgba(250, 250, 250, 0.85);
   -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
