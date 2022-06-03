@@ -1,7 +1,8 @@
 .footer-bg{
-  background: rgb(57, 74, 66);
+  // background: #394A42;
+  background: $dark-green;
 }
-footer a:hover{
+.footer a:hover{
   color: $warning !important;
 }
 .footer-end .declaration{
